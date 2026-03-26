@@ -4,32 +4,35 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>JavaJam Coffee House</title>
+		<link rel="stylesheet" href="javajam.css">
 	</head>
 	<body>
-		<header>
-			<h1>JavaJam House Music</h1>
-		</header>
-		<nav>
-			<a href="index.html">Home</a>&nbsp;
-			<a href="menu.html">Menu</a>&nbsp;
-			<a href="music.html">Music</a>&nbsp;
-			<a href="jobs.html">Jobs</a>&nbsp;
-		</nav>
-		<main>
-			<h2>Music at JavaJam</h2>
-			<p>The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won&rsquo;t want to miss!</p>
-			<h4>January</h4>
-			<p class="details"><img src="/images/melaniethumb.jpg" alt="Melanie Morris">Melanie Morris entertains with her melodic folk style</p>
-			<h4>February</h4>
-			<p class="details"><img src="/images/gregthumb.jpg" alt="Tahoe Greg">Tahoe Greg is back from his tour. New songs. New stories</p>
-		</main>
-		<footer>
-			<small>
-				<i>
-					Copyright © 2025 JavaJam Coffee House<br>
-					<a href="#">amin@kafri.com</a>
-				</i>
-			</small>
-		</footer>
+		<div id="wrapper">
+			<header>
+				<h1>JavaJam House Music</h1>
+			</header>
+			<nav>
+				<a href="index.html">Home</a>&nbsp;
+				<a href="menu.html">Menu</a>&nbsp;
+				<a href="music.html">Music</a>&nbsp;
+				<a href="jobs.html">Jobs</a>&nbsp;
+			</nav>
+			<main>
+				<h2>Music at JavaJam</h2>
+				<p>The first Friday night each month at JavaJam is a special night. Join us from 8 pm to 11 pm for some music you won&rsquo;t want to miss!</p>
+				<h4>January</h4>
+				<div class="details">
+					<a href="/images/melanie.jpg"><img src="/images/melaniethumb.jpg" alt="Melanie Morris" class="floatleft"></a><p>Melanie Morris entertains with her melodic folk style</p>
+				</div>
+				<h4>February</h4>
+				<div class="details">
+					<a href="/images/greg.jpg"><img src="/images/gregthumb.jpg" alt="Tahoe Greg" class="floatleft"></a><p>Tahoe Greg is back from his tour. New songs. New stories</p>
+				</div>
+			</main>
+			<footer>
+				Copyright © 2025 JavaJam Coffee House<br>
+				<a href="#">amin@kafri.com</a>
+			</footer>
+		</div>
 	</body>
 </html>
