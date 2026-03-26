@@ -2,13 +2,13 @@ body {
 	background-color: #FCEBB6;
 	color: #221811;
 	font-family: Verdana, Arial, sans-serif;
-	background-image: url(/images/background.gif);
+	background-image: url(images/background.gif);
 }
 
 header {
 	background-color: #D2B48C;
 	height: 150px;
-	background-image: url(/images/javajamlogo.jpg);
+	background-image: url(images/javajamlogo.jpg);
 	background-repeat: no-repeat;
 }
 
