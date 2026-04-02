@@ -23,26 +23,46 @@
 			<main class="p-5">
 				<h2>Jobs at JavaJam</h2>
 				<p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are mark with an asterisk(*).</p>
-				<form method="post", action="/action_page.js">
-					<label >*Name</label><br>
-					<input type="text" placeholder="Enter your name"><br>
-					<label >*Email</label><br>
-					<input type="email"><br>
-					<label >*Experience</label><br>
-					<textarea rows="8" cols="40"></textarea><br>
-					<label>Select job position</label>
-					<select>
-						<option value="barista">Barista</option>
-					</select><br>
-					<br>
-					<label>Preferred Interview Date and Time:</label><br>
-					<input type="datetime-local"><br>
-					<br>
-					<label>Upload your photo:</label>
-					<input type="file" name="" value=""><br>
-					<br>
-					<button type="submit">Apply Now</button>
+				<form method="post" action="/action_page.js" class="row g-3">
+					<div class="col-md-6">
+						<label class="form-label fw-bold small text-uppercase text-muted">* Name</label>
+						<input type="text" class="form-control" placeholder="Enter your name" required>
+					</div>
+
+					<div class="col-md-6">
+						<label class="form-label fw-bold small text-uppercase text-muted">* Email</label>
+						<input type="email" class="form-control" placeholder="email@address.com" required>
+					</div>
+
+					<div class="col-12">
+						<label class="form-label fw-bold small text-uppercase text-muted">Select job position</label>
+						<select class="form-select">
+							<option value="barista">Barista</option>
+							<option value="server">Server</option>
+							<option value="manager">Manager</option>
+						</select>
+					</div>
+
+					<div class="col-12">
+						<label class="form-label fw-bold small text-uppercase text-muted">* Experience</label>
+						<textarea class="form-control" rows="4" placeholder="Tell us about your background..." required></textarea>
+					</div>
+
+					<div class="col-md-6">
+						<label class="form-label fw-bold small text-uppercase text-muted">Interview Date/Time</label>
+						<input type="datetime-local" class="form-control">
+					</div>
+
+					<div class="col-md-6">
+						<label class="form-label fw-bold small text-uppercase text-muted">Upload Photo</label>
+						<input type="file" class="form-control">
+					</div>
+
+					<div class="col-12 mt-4">
+						<button type="submit" class="btn btn-dark px-4">Apply Now</button>
+					</div>
 				</form>
+
 			</main>
 			<hr>
 			<footer class="container fst-italic my-3">
