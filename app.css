@@ -1,6 +1,8 @@
 :root {
 	--coffee-dark: #3e2723;
 	--coffee-light: #e8dbcf;
+	--coffee-button: #feed8b;
+	--coffee-hover: #fef4b8;
 	--accent: #8d6e63;
 }
 
@@ -47,4 +49,13 @@ nav a.col:hover {
 .details {
 	overflow: auto;
 	margin-bottom: 2rem;
+}
+
+.btn-custom {
+	background-color: var(--coffee-button) !important;
+	box-shadow: 5px 5px rgba(0,0,0,0.5);
+}
+
+.btn-custom:hover {
+	background-color: var(--coffee-hover) !important;
 }
